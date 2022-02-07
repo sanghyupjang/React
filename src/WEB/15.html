@@ -32,7 +32,6 @@
             disabled={inverted}
             />
             </div>
-            <div>
             <label htmlfor="hours">Hours</label>
             <input 
             value={inverted ? amount : Math.round(amount / 60)}
@@ -42,7 +41,6 @@
             disabled={!inverted}
             onChange={onChange}
             />
-            <div>
             <button onClick={reset}>Reset</button>
             <button onClick={onFlip}>{inverted ? "Turn back" : "Invert"}</button>
             </div>

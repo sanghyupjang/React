@@ -32,7 +32,6 @@
             disabled={flipped}
             />
             </div>
-            <div>
             <label htmlfor="hours">Hours</label>
             <input 
             value={flipped ? Amount : Math.round(Amount / 60)}
@@ -42,7 +41,6 @@
             disabled={!flipped}
             onChange={onChange}
             />
-            <div>
             <button onClick={reset}>Reset</button>
             <button onClick={onFlip}>Flip</button>
             </div>
