@@ -6,7 +6,6 @@ function App() {
     <Router>
       <Switch>
         <Route path="/abot-us">
-          <h1>Hello</h1>
         </Route>
         <Route path="/movie/:id">
           <Detail />
